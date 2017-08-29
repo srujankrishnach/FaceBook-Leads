@@ -4,7 +4,7 @@
 	<property name ="dev.project.name" value = "FaceBook-Leads-dev"/>
 	<property name="cib.path" value ="vgn-ext-templating\\WEB-INF\\jsp\\sbg\\cib" />
 	<property name = "cib.path.absolute" value = "${eclipse.workspace.dir}\\${dev.project.name}\\${cib.path}"/> 
-	<target name = "scpdeploy"  description = "Deploy application">
+	<target name = "deploy-cib"  description = "Deploy application">
 			<scp todir="dmaint:shoctAk9@dpbbvcml1.standardbank.co.za:/udd001/app/srujan/anttest" verbose="true" trust="true" failonerror="true" flatten="true">
 			    <fileset dir="${cib.path.absolute}">
 			      <include name="**/*.jsp"/>
