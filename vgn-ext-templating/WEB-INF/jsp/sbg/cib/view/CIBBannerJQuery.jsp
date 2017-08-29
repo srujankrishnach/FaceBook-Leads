@@ -2,6 +2,7 @@
 <%@include file="/WEB-INF/jsp/sbg/common/include/sbgHeader.jsp"%>
 
 <%--adding test initialize component & results --%>
+
 <templating:initComponent var="content"/>
 
 <c:if test="${not empty content}">
