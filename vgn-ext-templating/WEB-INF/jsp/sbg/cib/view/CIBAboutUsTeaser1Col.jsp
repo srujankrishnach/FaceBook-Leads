@@ -3,7 +3,7 @@
 <%@include file="/WEB-INF/jsp/sbg/common/include/sbgHeader.jsp"%>
 
 
-<%-- initialize component & results --%>
+<%-- initialize component & results test --%>
 <templating:initComponent/>
 <templating:initRequestContext var="rc" />
 <c:set var="currentSite" value="${rc.currentSiteBean}" />
