@@ -7,13 +7,5 @@
 		<c:set var="imagePath" value="${SFPathPrefix}${bannerPath}"/>
 	</c:if>
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 </c:if>
