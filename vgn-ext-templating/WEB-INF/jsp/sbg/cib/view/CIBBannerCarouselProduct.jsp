@@ -9,6 +9,7 @@
 <templating:contentLink var="homeURL" oid="${currentSite.homeChannel.system.id}" />
 
 
+
 <c:if test="${not empty component.results}">
 
 <div class="std_bank_comp_banner">
