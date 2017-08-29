@@ -1,7 +1,7 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"
 	language="java"%>
 <%@include file="/WEB-INF/jsp/sbg/common/include/sbgHeader.jsp"%>
-
+adding test content
 
 <%-- initialize component & results test --%>
 <templating:initComponent/>
