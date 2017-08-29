@@ -6,4 +6,13 @@
 	<c:if test="${not empty bannerPath}">
 		<c:set var="imagePath" value="${SFPathPrefix}${bannerPath}"/>
 	</c:if>
+	
+	
+	
+	
+	
+	
+	
+	
+	
 </c:if>
