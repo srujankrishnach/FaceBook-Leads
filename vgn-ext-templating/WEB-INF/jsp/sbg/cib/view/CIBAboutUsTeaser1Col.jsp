@@ -2,6 +2,7 @@
 	language="java"%>
 <%@include file="/WEB-INF/jsp/sbg/common/include/sbgHeader.jsp"%>
 
+
 <%-- initialize component & results --%>
 <templating:initComponent/>
 <templating:initRequestContext var="rc" />
