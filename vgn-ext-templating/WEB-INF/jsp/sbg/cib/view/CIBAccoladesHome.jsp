@@ -3,11 +3,14 @@
 <%@include file="/WEB-INF/jsp/sbg/common/include/sbgHeader.jsp"%>
 
 <%-- initialize component & results --%>
+<<<<<<< HEAD
 
 added 1
 =======
 added 2
 >>>>>>> branch 'dev' of https://github.com/srujankrishnach/FaceBook-Leads
+=======
+>>>>>>> refs/remotes/origin/master
 <templating:initComponent/>
 <templating:initRequestContext var="rc" />
 <c:set var="currentSite" value="${rc.currentSiteBean}" />

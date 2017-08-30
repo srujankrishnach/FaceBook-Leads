@@ -9,8 +9,11 @@
 			crumbListUL.append("<li>${content.system.name}</li>");
 		}
 	});
+<<<<<<< HEAD
 	
 	
 	
 	
+=======
+>>>>>>> refs/remotes/origin/master
 </script>

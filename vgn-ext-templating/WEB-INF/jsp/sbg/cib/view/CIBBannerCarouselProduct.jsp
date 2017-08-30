@@ -9,7 +9,10 @@
 <templating:contentLink var="homeURL" oid="${currentSite.homeChannel.system.id}" />
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> refs/remotes/origin/master
 <c:if test="${not empty component.results}">
 
 <div class="std_bank_comp_banner">
