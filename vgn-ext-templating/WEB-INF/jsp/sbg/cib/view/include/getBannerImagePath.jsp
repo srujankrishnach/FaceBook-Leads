@@ -5,6 +5,10 @@
 	<c:set var="altText" value="${bannerContetItem.mediaItem.ALTTEXT}"/>
 	<c:if test="${not empty bannerPath}">
 		<c:set var="imagePath" value="${SFPathPrefix}${bannerPath}"/>
+		
+		
+		
+		sss
 	</c:if>
 <<<<<<< HEAD
 	

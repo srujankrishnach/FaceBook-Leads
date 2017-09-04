@@ -1,17 +1,26 @@
 <?xml version="1.0"?>
-<project name="dev" basedir="." default="build">
+<project name="dev" basedir="." default="deploy-cib">
 	<path id="workspacePath" location=".."/>
 	<pathconvert property="workspace" refid="workspacePath"></pathconvert>
 	<echo>workspace is ${workspace}</echo>
 	<property name ="dev.project.name" value = "FaceBook-Leads-dev"/>
-	<property name="cib.path" value ="vgn-ext-templating\\WEB-INF\\jsp\\sbg\\cib" />
-	<property name = "cib.path.absolute" value = "${workspace}\\${dev.project.name}\\${cib.path}"/> 
+	<property name="dmaint" value="Achliat9"/>
+	<property name="cib.path" value ="vgn-ext-templating/WEB-INF/jsp/sbg/cib" />
+	<property name = "cib.path.absolute" value = "${workspace}/${dev.project.name}/${cib.path}"/> 
 	<target name = "deploy-cib"  description = "Deploy application">
-			<scp todir="dmaint:RudHyft7@dpbbvcml1.standardbank.co.za:/udd001/app/srujan/anttest" verbose="true" trust="true" failonerror="true" >
-			    <fileset dir="${cib.path.absolute}">
-			      <include name="**/*.jsp"/>
-			    </fileset>
-			  </scp>
+		<scp todir="dmaint:${dmaint}@nupbbvcml1.standardbank.co.za:/udd001/app/anttest" verbose="true" trust="true" failonerror="true" >
+					    <fileset dir="${cib.path.absolute}">
+					      <include name="**/*.jsp"/>
+					    </fileset>
+					  </scp>
+		
+		<scp todir="dmaint:${dmaint}@dpbbvcml1.standardbank.co.za:/udd001/app/srujan/anttest" verbose="true" trust="true" failonerror="true" >
+					    <fileset dir="${cib.path.absolute}">
+					      <include name="**/*.jsp"/>
+					    </fileset>
+					  </scp>
 
 	</target>
+	
+
 </project>
