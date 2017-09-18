@@ -11,6 +11,8 @@ adding test content
 
 
 
+
+
 <%-- initialize component & results --%>
 >>>>>>> refs/remotes/origin/master
 <templating:initComponent/>
